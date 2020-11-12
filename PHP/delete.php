@@ -12,7 +12,7 @@
 	// 	}
 	// }
 	// $conn->close();
-	require_once 'actions/db_connection.php';
+	require_once 'actions/db_connect.php';
 
 if ($_GET['meal_id']) {
    $meal_id = $_GET['meal_id'];
